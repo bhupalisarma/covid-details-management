@@ -35,11 +35,14 @@ This is a React+TypeSciript application that serves as a contact manager and als
 
 2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Technologies Used
+## Tech Stacks and Libraries
 
 - React: JavaScript library for building user interfaces
 - Redux: State management library for React applications
 - Tailwind CSS: Utility-first CSS framework for styling the application
 - React Leaflet: React components for Leaflet maps
+- React ReCharts : React Component for Line Graph
+- React Spinner: Proloader
+- React Icons : Dashboard Icons
 
 
