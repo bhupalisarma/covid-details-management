@@ -7,9 +7,9 @@ const Sidebar: React.FC = () => {
   return (
 		<div className="w-2/5 md:w-1/5 bg-[#131313] h-screen flex flex-col flex-wrap overflow-hidden">
 			<div className="py-4 px-2 text-white text-center fixed w-1/5 mt-8">
-				<h1 className="text-md md:text-xl lg:text-2xl font-bold  md:shrink-0">
+				<h1 className="text-xl md:text-xl lg:text-2xl font-bold w-full">
 					Management App
-				</h1>{" "}
+				</h1>
 				{/* Sidebar heading */}
 			</div>
 			<div className="mt-28">
@@ -17,11 +17,11 @@ const Sidebar: React.FC = () => {
 					<li className="my-6 text-xl">
 						<Link
 							to="/"
-							className="flex text-md md:text-xl lg:text-2xl items-center justify-center">
+							className="flex text-sm md:text-xl lg:text-2xl items-center justify-center">
 							<FontAwesomeIcon
 								icon={faChartBar}
 								className="mr-2 mb-1"
-							/>{" "}
+							/>
 							{/* Icon for Dashboard */}
 							Dashboard {/* Link to the dashboard */}
 						</Link>
@@ -29,7 +29,7 @@ const Sidebar: React.FC = () => {
 					<li className="my-6 text-xl">
 						<Link
 							to="/contacts"
-							className="flex text-sm md:text-lg lg:text-xl items-center justify-center">
+							className="flex text-sm md:text-xl lg:text-2xl items-center justify-center">
 							<FontAwesomeIcon
 								icon={faAddressBook}
 								className="mr-2 mb-1"
