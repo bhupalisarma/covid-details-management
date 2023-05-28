@@ -1,0 +1,1 @@
+# covid-details-management
