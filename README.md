@@ -45,4 +45,6 @@ This is a React+TypeSciript application that serves as a contact manager and als
 - React Spinner: Proloader
 - React Icons : Dashboard Icons
 
+## Hosted Link
 
+https://covid-details-management.vercel.app/
